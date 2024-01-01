@@ -10,6 +10,8 @@ body{
 .row{
     display: flex;
     flex-direction: row;
+    flex: 2;
+    gap:100px;
 
 }
 .bgb{
@@ -23,6 +25,10 @@ body{
 }
 .bgbb{
     background-color: #3882f6;
+    padding: 25px 250px 25px 250px;
+    border-radius: 10px;
+    margin: 25px 0px 25px 0px;
+
 }
 .list{
     list-style: none;
@@ -46,4 +52,81 @@ body{
 
 .cth{
     align-items: center ;
+}
+.fh1{
+    justify-content:space-between;
+}
+.w100{
+    min-width: 100%;
+}
+.c{
+    margin:0px 20px 0px 20px;
+}
+.t2{
+    font-size: 48px;
+    font-weight:bold;
+    color: #f9faf8;
+    margin-bottom: 0%;
+}
+.t3{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.t4{
+    font-size: 18px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    padding: 10px 15px 10px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.idc{
+    justify-content: center;
+    
+}
+.pics{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px #3882f6 solid;
+    border-radius: 5px;
+}
+.tx5{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: center;
+}
+.idc2{
+    margin-right: 15px;
+}
+.tx6{
+    text-align: center;
+}
+.tx7{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    width: 500px;
+}
+.tx8{
+    text-align: left;
+    font-weight: bold;
+}
+.tx9{
+    color: #E5E7EB;
+    
+}
+.tx11{
+    font-size: 18px;
+}
+.tx10{
+    color: #E5E7EB;
+    border: 2px white solid;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px
+}
+.tx15{
+    color: #E5E7EB;
+padding: 15px 0px 15px 0px;
 }
